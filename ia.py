@@ -14,7 +14,7 @@ xPrediction = np.split(x_entrer, [8])[1] # Valeur que l'on veut trouver
 class Neural_Network(object):
   def __init__(self):
   #Nos paramètres
-    self.inputSize = 2 # Nombre de neurones d'entrer
+    self.inputSize = 2 # Nombre de neurones d'entrée
     self.outputSize = 1 # Nombre de neurones de sortie
     self.hiddenSize = 3 # Nombre de neurones cachés
 
