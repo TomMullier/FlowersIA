@@ -4,7 +4,7 @@ x_entrer = np.array(([3, 1.5], [2, 1], [4, 1.5], [3, 1], [3.5,0.5], [2,0.5], [5.
 y = np.array(([1], [0], [1],[0],[1],[0],[1],[0]), dtype=float) # données de sortie /  1 = rouge /  0 = bleu
 
 # Changement de l'échelle de nos valeurs pour être entre 0 et 1
-x_entrer = x_entrer/np.amax(x_entrer, axis=0) # On divise chaque entré par la valeur max des entrées
+x_entrer = x_entrer/np.amax(x_entrer, axis=0)
 
 # On récupère ce qu'il nous intéresse
 X = np.split(x_entrer, [8])[0] # Données sur lesquelles on va s'entrainer, les 8 premières de notre matrice
